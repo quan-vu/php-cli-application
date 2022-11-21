@@ -1,0 +1,17 @@
+{
+    "name": "quan-vu/php-cli-application",
+    "description": "Simple PHP CLI Application with no dependencies",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "PCA\\": "lib/",
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Quan Vu"
+        }
+    ],
+    "require": {}
+}
